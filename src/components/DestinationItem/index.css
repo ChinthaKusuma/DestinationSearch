@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.img1 {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bgContainer {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: black;
+}
+.search-input {
+  background-color: #f1f5f9;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+}
+.input1 {
+  background-color: #f1f5f9;
+  border: 0px;
+  outline: none;
+}
+.img2 {
+  height: 20px;
+}
+.li1 {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+@media all and (width<577px) {
+  .li1 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    flex-wrap: wrap;
+  }
+}
